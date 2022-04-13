@@ -1,0 +1,10 @@
+package com.example.demo.mvc.repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface BoardRepository {
+	List<Board> getList();
+	Board get(int boardSeq);
+	void save(Board board);
+}

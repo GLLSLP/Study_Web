@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<mapper resource="com.example.demo.mvc.repository.BoardRepository">
+<select id="getList" parameterType="com.example.demo.mvc.domain.Board" resultType="com.example.demo.mvc.domain.Board"></select>
+</mapper>
