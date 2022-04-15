@@ -5,3 +5,9 @@
 1649835608667	Rename field 'service'
 1649920368815	Delete element
 1649922658344	Rename local variable 'board'
+1650002971338	Copy package
+1650002989624	Rename type 'Board'
+1650006735803	Delete element
+1650006787281	Delete element
+1650006878193	Delete element
+1650008235208	Rename resource 'messages_ko.properties'
