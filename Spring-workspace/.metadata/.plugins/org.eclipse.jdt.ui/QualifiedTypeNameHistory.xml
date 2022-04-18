@@ -43,4 +43,8 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
     <fullyQualifiedTypeName name="com.example.demo.configuration.exception.BaseException"/>
     <fullyQualifiedTypeName name="com.example.demo.configuration.http.BaseResponseCode"/>
+    <fullyQualifiedTypeName name="org.springframework.util.StringUtils"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.InterceptorRegistry"/>
+    <fullyQualifiedTypeName name="com.example.demo.configuration.servlet.handler.BaseHandlerInterceptor"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.HandlerInterceptor"/>
 </qualifiedTypeNameHistroy>

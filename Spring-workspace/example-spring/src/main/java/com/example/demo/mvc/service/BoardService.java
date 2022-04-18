@@ -49,13 +49,6 @@ public class BoardService {
 
 	};
 	/**
-	 * 업데이트 처리
-	 * @param board
-	 */
-	public void update(BoardParameter board) {
-		repository.update(board);
-	};
-	/**
 	 * 삭제 처리
 	 * @param board
 	 */

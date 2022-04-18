@@ -23,6 +23,7 @@ public class BaseResponse<T> {
 		// TODO Auto-generated constructor stub
 		this.code=code;
 		this.message=message;
+		System.out.println(code+"///"+message);
 	}
 	
 }
