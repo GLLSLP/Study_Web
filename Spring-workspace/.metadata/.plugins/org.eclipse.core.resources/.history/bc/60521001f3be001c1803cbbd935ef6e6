@@ -1,5 +1,0 @@
-package com.example.demo.configuration.servlet.handler;
-
-public class BaseHandlerInterceptor {
-
-}

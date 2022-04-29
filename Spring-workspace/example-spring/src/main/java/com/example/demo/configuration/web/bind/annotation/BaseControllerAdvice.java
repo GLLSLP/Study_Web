@@ -22,7 +22,6 @@ public class BaseControllerAdvice {
   	@ResponseStatus(HttpStatus.OK)
   	@ResponseBody
   	private BaseResponse<?> handleBaseException(BaseException e, WebRequest request) {
-		System.out.println(e.getResponseCode().name()+"//"+e.getArgs()[0]);
 		return new BaseResponse<String>(e.getResponseCode(), messageSource.getMessage(e.getResponseCode().name(), e.getArgs(), null));
   	}
 }

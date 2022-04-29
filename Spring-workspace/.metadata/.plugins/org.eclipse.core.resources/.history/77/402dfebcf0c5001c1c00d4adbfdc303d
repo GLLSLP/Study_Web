@@ -1,0 +1,5 @@
+package com.example.demo.framework.web.bind.annotation;
+
+public class RequestConfig {
+
+}

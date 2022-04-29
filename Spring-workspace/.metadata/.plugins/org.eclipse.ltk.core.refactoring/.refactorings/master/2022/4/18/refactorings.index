@@ -13,3 +13,21 @@
 1650875796321	Rename package 'kr.co.songjava.mvc.repository'
 1650875801953	Rename package 'kr.co.songjava.mvc.service'
 1650875815973	Rename package 'kr.co.songjava'
+1650950794559	Rename package 'com.example.demo.configuration'
+1650950803357	Rename package 'com.example.demo.configuration.exception'
+1650950811861	Rename package 'com.example.demo.mvc.service'
+1650950818371	Rename package 'com.example.demo.mvc.repository'
+1650950826083	Rename package 'com.example.demo.mvc.controller'
+1650950831452	Rename package 'com.example.demo.mvc.domain'
+1650950838287	Rename package 'com.example.demo.mvc.parameter'
+1650950843763	Rename package 'com.example.demo.framework.data.domain'
+1650950853554	Rename package 'com.example.demo.configuration.servlet.handler'
+1650950860808	Rename package 'com.example.demo.framework.data.web'
+1650950869420	Rename package 'com.example.demo.configuration.web.bind.annotation'
+1650950878816	Rename package 'com.example.demo.configuration.http'
+1650950886366	Rename package 'com.example.demo'
+1650951089152	Copy compilation units
+1650951127753	Copy compilation unit
+1650951334599	Copy package
+1650951390699	Copy package
+1650951564319	Rename package 'com.example.demo'

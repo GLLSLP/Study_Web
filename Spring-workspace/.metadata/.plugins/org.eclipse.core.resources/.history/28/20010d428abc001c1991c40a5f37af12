@@ -1,5 +1,0 @@
-package com.example.demo.configuration.exception;
-
-public class BaseException {
-
-}

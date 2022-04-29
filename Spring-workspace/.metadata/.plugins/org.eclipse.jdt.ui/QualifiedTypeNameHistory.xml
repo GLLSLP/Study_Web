@@ -41,10 +41,19 @@
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.context.MessageSource"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
-    <fullyQualifiedTypeName name="com.example.demo.configuration.exception.BaseException"/>
-    <fullyQualifiedTypeName name="com.example.demo.configuration.http.BaseResponseCode"/>
     <fullyQualifiedTypeName name="org.springframework.util.StringUtils"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.InterceptorRegistry"/>
-    <fullyQualifiedTypeName name="com.example.demo.configuration.servlet.handler.BaseHandlerInterceptor"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.HandlerInterceptor"/>
+    <fullyQualifiedTypeName name="com.example.demo.mvc.domain.BoardType"/>
+    <fullyQualifiedTypeName name="com.example.demo.framework.data.domain.MySQLPageRequest"/>
+    <fullyQualifiedTypeName name="com.example.demo.framework.data.domain.PageRequestParameter"/>
+    <fullyQualifiedTypeName name="com.example.demo.mvc.parameter.BoardSearchParameter"/>
+    <fullyQualifiedTypeName name="com.example.demo.configuration.servlet.handler.BaseHandlerInterceptor"/>
+    <fullyQualifiedTypeName name="com.example.demo.mvc.domain.BaseCodeLabelEnum"/>
+    <fullyQualifiedTypeName name="com.example.demo.framework.data.web.MySQLPageRequestHandleMethodArgumentResolver"/>
+    <fullyQualifiedTypeName name="java.util.logging.Handler"/>
+    <fullyQualifiedTypeName name="org.springframework.web.method.HandlerMethod"/>
+    <fullyQualifiedTypeName name="com.example.demo.configuration.exception.BaseException"/>
+    <fullyQualifiedTypeName name="com.example.demo.configuration.http.BaseResponseCode"/>
+    <fullyQualifiedTypeName name="com.example.demo.framework.web.bind.annotation.RequestConfig"/>
 </qualifiedTypeNameHistroy>

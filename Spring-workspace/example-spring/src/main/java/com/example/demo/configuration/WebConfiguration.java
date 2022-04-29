@@ -12,30 +12,13 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.module.SimpleModule;
-
-import kr.co.songjava.configuration.servlet.handler.BaseHandlerInterceptor;
-import kr.co.songjava.framework.data.web.MySQLPageRequestHandleMethodArgumentResolver;
-import kr.co.songjava.mvc.domain.BaseCodeLabelEnum;
-import java.util.Locale;
-
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.support.ReloadableResourceBundleMessageSource;
-import org.springframework.http.MediaType;
-import org.springframework.web.method.support.HandlerMethodArgumentResolver;
-import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
-
 import com.example.demo.configuration.servlet.handler.BaseHandlerInterceptor;
+import com.example.demo.framework.data.web.MySQLPageRequestHandleMethodArgumentResolver;
+import com.example.demo.mvc.domain.BaseCodeLabelEnum;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 
-import kr.co.songjava.configuration.BaseCodeLabelEnumJsonSerializer;
-import kr.co.songjava.framework.data.web.MySQLPageRequestHandleMethodArgumentResolver;
-import kr.co.songjava.mvc.domain.BaseCodeLabelEnum;
+
 
 @Configuration
 public class WebConfiguration implements WebMvcConfigurer {

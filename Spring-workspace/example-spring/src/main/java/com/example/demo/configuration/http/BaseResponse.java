@@ -20,10 +20,8 @@ public class BaseResponse<T> {
 	}
 
 	public BaseResponse(BaseResponseCode code, String message) {
-		// TODO Auto-generated constructor stub
 		this.code=code;
 		this.message=message;
-		System.out.println(code+"///"+message);
 	}
 	
 }
